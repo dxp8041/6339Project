@@ -1,0 +1,156 @@
+/*
+ * Main styles for site
+ *
+ * UTA Blue dark  = #1a3150
+ * UTA Blue med   = #244571
+ * UTA Blue light = #376299
+ * UTA Orange     = #fd7c40
+ *
+ */
+
+/*
+ * Global classes
+ *
+ */
+
+a
+{
+    color: #ffffff;
+}
+
+body {
+	background-color: #006400;
+	color:#BFBBB3;
+}
+
+h1,h2,h3,h4,h5 {
+	font-family:serif;
+	color:#fff;
+}
+
+.table-hover tbody tr:hover {
+	background:#52749E;
+}
+
+.table tbody tr td, .table thead th {
+	border-color:#8E8E8E !important;
+}
+
+.table-blue {
+	background:#006400;
+}
+
+.link-danger {
+	color:#d9534f;
+}
+
+.list-group-item:hover {
+	background: #FFECD2;
+}
+
+.nav {
+	font-family: serif;
+}
+
+nav.navbar {
+	border:0;
+}
+
+.navbar-orange {
+	background-color:#bfad3b ;
+	color:#000000;
+	margin-bottom:0;
+}
+	.navbar-orange ul.nav li {
+		border-right: 1px solid #ffffff;
+	}
+
+	.navbar-orange ul.nav li a {
+		color:#000000;
+	}
+
+	.navbar-orange ul.nav li a:hover {
+		background-color:#BFBBB9;
+		color:#000000;
+	}
+
+nav .navbar-collapse {
+	padding-left: 0;
+}
+
+.header {
+ 	background-color: #006400;
+ }
+
+.footer {
+ 	background-color: #bfad3b ;
+ 	/*color: #ccc;*/
+ 	font-size: .8em;
+ }
+ 	.footer a {
+ 		color:#B75757;
+ 	}
+
+ 	.footer a:hover {
+ 		color:#B75757;
+ 		text-decoration: underline;
+ 	}
+
+ .footer-section ul {
+ 	padding-left:0;
+ 	list-style-position: inside;
+ }
+
+
+.row {
+    background-color: #000000;
+}
+
+.copyright {
+ 	color: #ccc;
+ }
+
+.section {
+ 	padding:15px 0;
+ }
+
+
+.uta-orange-bg {
+ 	background-color:#fd7c40;
+ }
+
+.btn-edit {
+	border:0;
+}
+
+.btn-uta-orange {
+	color: #f97e2c ;
+	
+	border-color: #f97e2c ;
+}
+
+
+
+ 
+ #loginForm {
+ 	border:1px solid #ddd;
+ 	padding:7px;
+ }
+
+ #loginForm label {
+ 	font-weight: normal;
+ }
+
+ #loginForm input {
+ 	/*width: 250px;*/
+ }
+
+ /*
+  * Student Advisor Select Page
+  *
+  */
+
+#advisor-selector .list-group-item a,
+#advisor-selector .panel-title a {
+	display:block;
+}
